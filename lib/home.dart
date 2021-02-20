@@ -41,6 +41,7 @@ class Home extends StatelessWidget {
                         shape: BoxShape.circle,
                       ),
                       child: IconButton(
+                        onPressed: () {},
                         icon: Icon(
                           Icons.settings,
                           color: Colors.white,
