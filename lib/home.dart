@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:heisenboxapp/create-card.dart';
+import 'package:heisenboxapp/note-list.dart';
 import 'package:heisenboxapp/widgets/category_card.dart';
 
 class HomePage extends StatelessWidget {
@@ -70,28 +72,36 @@ class Home extends StatelessWidget {
                           categoryName: "Do",
                           categoryColor: Color(0xff00ff86),
                           press: () {
-                            print("Do tıklandı");
+                            Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => NoteLists() ),
+                        );
                           },
                         ),
                         CardCategory(
                           categoryName: "Delegate",
                           categoryColor: Color(0xff0091ff),
                           press: () {
-                            print("Delagate tıklandı");
+                           Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => NoteLists() ),
+                        );
                           },
                         ),
                         CardCategory(
                           categoryName: "Decide",
                           categoryColor: Color(0xffffe000),
                           press: () {
-                            print("Decide tıklandı");
+                           Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => NoteLists() ),
+                        );
                           },
                         ),
                         CardCategory(
                           categoryName: "Delete",
                           categoryColor: Color(0xffff4600),
                           press: () {
-                            print("Delete tıklandı");
+                           Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => NoteLists() ),
+                        );
                           },
                         ),
                       ],
@@ -107,11 +117,13 @@ class Home extends StatelessWidget {
         backgroundColor: Color(0xffff00d1),
         icon: Icon(Icons.add),
         label: Text(
-          "Create List",
+          "Create Card",
           style: TextStyle(fontFamily: "Lato", fontWeight: FontWeight.w700,fontSize: 16),
         ),
         onPressed: () {
-          print("Category card oluştur");
+           Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => CreateCard() ),
+                        );
         },
       ),
     );
