@@ -99,9 +99,7 @@ class Home extends StatelessWidget {
                           categoryName: "Delete",
                           categoryColor: Color(0xffff4600),
                           press: () {
-                           Navigator.of(context).push(
-                          MaterialPageRoute(builder: (context) => NoteLists() ),
-                        );
+                           
                           },
                         ),
                       ],
