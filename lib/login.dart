@@ -18,8 +18,8 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
-  Color backColor = Color(0xff37474f);
-  Color borderColor= Color(0xffff00d1);
+  Color backColor = Color(0xff273036);
+  Color borderColor= Color(0xffff66c4);
   @override
   Widget build(BuildContext context) {
     return new Scaffold(

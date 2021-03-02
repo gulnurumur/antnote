@@ -4,21 +4,21 @@ import 'package:heisenboxapp/login.dart';
 
 
 const items = [
-  Color(0xffff00d1),
-  Color(0xff00ff86),
-  Color(0xff0091ff),
-  Color(0xffffe000),
-  Color(0xffff4600),
-  Color(0xff37474f),
+  Color(0xffff66c4),
+  Color(0xff00cba9),
+  Color(0xff38b6ff),
+  Color(0xffFFDE59),
+  Color(0xffff5500),
+  Color(0xff273036),
 ];
 
 var icerik = [
   "Welcome to\nAnt Notes",
-  "Do it now.",
-  "Delegate,\nSchedule a time\nto do it.",
-  "Decide,\nWho can do it\nfor you?",
-  "Delete,\nEliminate it.",
-  "Go ahead\nto start planning\nyour day"
+  "To be as\nhardworking\nas ants, think simple.",
+  "Categorize and better manage your\nto-do list.",
+  "Focus more\nby keeping\nshorter periods.",
+  "Get inspired\nby ants and work\nhard to be an ant.",
+  "To become an ant,\nregister now and\njoin other ants."
 ];
 
 void main() {

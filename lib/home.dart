@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
           Container(
             height: size.height * .25,
             decoration: BoxDecoration(
-              color: Color(0xff37474f),
+              color: Color(0xff273036),
             ),
           ),
           SafeArea(
@@ -38,10 +38,6 @@ class Home extends StatelessWidget {
                       alignment: Alignment.center,
                       height: 58,
                       width: 58,
-                      decoration: BoxDecoration(
-                        color: Color(0xffff00d1),
-                        shape: BoxShape.circle,
-                      ),
                       child: IconButton(
                         onPressed: () {},
                         icon: Icon(
@@ -53,7 +49,7 @@ class Home extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "Good to see you,\nGülnur",
+                    "Welcome,",
                     style: TextStyle(
                         color: Colors.white,
                         fontFamily: "Lato",
@@ -70,7 +66,7 @@ class Home extends StatelessWidget {
                       children: [
                         CardCategory(
                           categoryName: "Do",
-                          categoryColor: Color(0xff00ff86),
+                          categoryColor: Color(0xff00cba9),
                           press: () {
                             Navigator.of(context).push(
                           MaterialPageRoute(builder: (context) => NoteLists() ),
@@ -79,7 +75,7 @@ class Home extends StatelessWidget {
                         ),
                         CardCategory(
                           categoryName: "Delegate",
-                          categoryColor: Color(0xff0091ff),
+                          categoryColor: Color(0xff38b6ff),
                           press: () {
                            Navigator.of(context).push(
                           MaterialPageRoute(builder: (context) => NoteLists() ),
@@ -88,7 +84,7 @@ class Home extends StatelessWidget {
                         ),
                         CardCategory(
                           categoryName: "Decide",
-                          categoryColor: Color(0xffffe000),
+                          categoryColor: Color(0xffFFDE59),
                           press: () {
                            Navigator.of(context).push(
                           MaterialPageRoute(builder: (context) => NoteLists() ),
@@ -97,7 +93,7 @@ class Home extends StatelessWidget {
                         ),
                         CardCategory(
                           categoryName: "Delete",
-                          categoryColor: Color(0xffff4600),
+                          categoryColor: Color(0xffff5500),
                           press: () {
                            
                           },
@@ -112,7 +108,7 @@ class Home extends StatelessWidget {
         ],
       ),
       floatingActionButton: FloatingActionButton.extended(
-        backgroundColor: Color(0xffff00d1),
+        backgroundColor: Color(0xffff66c4),
         icon: Icon(Icons.add),
         label: Text(
           "Create Card",

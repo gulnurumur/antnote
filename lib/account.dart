@@ -18,8 +18,8 @@ class CreateAccount extends StatefulWidget {
 }
 
 class _CreateAccountState extends State<CreateAccount> {
-  Color backColor = Color(0xff37474f);
-  Color borderColor = Color(0xffff00d1);
+  Color backColor = Color(0xff273036);
+  Color borderColor = Color(0xffff66c4);
   String groupColor = '';
   @override
   Widget build(BuildContext context) {
@@ -179,7 +179,7 @@ class _CreateAccountState extends State<CreateAccount> {
                       },
                       child: Center(
                         child: Text(
-                          "I'm in.",style: TextStyle(
+                          "I'm ready",style: TextStyle(
                             fontFamily: "Lato",
                             fontSize: 16,
                             fontWeight: FontWeight.w700,
