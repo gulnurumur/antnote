@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
 
-import 'home.dart';
+import '../home.dart';
 
 class CreateCard extends StatelessWidget {
   @override
@@ -56,7 +56,6 @@ class _CategoryCardState extends State<CategoryCard> {
   ];
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
     return Scaffold(
       resizeToAvoidBottomPadding: false,
       backgroundColor: Colors.white,
