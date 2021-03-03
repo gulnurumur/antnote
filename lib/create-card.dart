@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
+import 'package:heisenboxapp/home.dart';
 
-import '../home.dart';
 
 class CreateCard extends StatelessWidget {
   @override

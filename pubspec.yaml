@@ -56,6 +56,12 @@ flutter:
   assets:
    - assets/images/logo.png
    - assets/images/waves.png
+   - assets/avatar/person1.png
+   - assets/avatar/person2.png
+   - assets/avatar/person3.png
+   - assets/avatar/person4.png
+   - assets/avatar/person5.png
+   - assets/avatar/person6.png
    
    
 
